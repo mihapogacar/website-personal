@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal website - Welcome to my digital space">
+    <title>Miha | Home</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">Miha</a>
+            <div class="hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <img src="https://via.placeholder.com/150" alt="Profile Photo" class="profile-img">
+            <h1>Miha</h1>
+            <p class="tagline">Developer • Creator • Problem Solver</p>
+            
+            <div class="social-links">
+                <a href="https://github.com/" target="_blank" rel="noopener" title="GitHub">GH</a>
+                <a href="https://linkedin.com/" target="_blank" rel="noopener" title="LinkedIn">LI</a>
+                <a href="https://twitter.com/" target="_blank" rel="noopener" title="Twitter">X</a>
+                <a href="mailto:hello@example.com" title="Email">@</a>
+            </div>
+        </section>
+
+        <section>
+            <h2>About Me</h2>
+            <p>Welcome to my corner of the internet. I'm passionate about building things that make a difference. Whether it's crafting elegant code, exploring new technologies, or solving complex problems, I love the process of creation.</p>
+            <br>
+            <a href="about.html" class="btn btn-outline">Learn More About Me →</a>
+        </section>
+
+        <section>
+            <h2>Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2024 - Present</div>
+                    <h3>Current Role</h3>
+                    <p>Working on exciting projects and pushing the boundaries of what's possible with modern technology.</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2022 - 2024</div>
+                    <h3>Previous Experience</h3>
+                    <p>Built scalable applications and collaborated with talented teams to deliver impactful solutions.</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2020 - 2022</div>
+                    <h3>Early Career</h3>
+                    <p>Started my journey in tech, learning the fundamentals and developing a strong foundation.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-card-content">
+                        <h3>Project Alpha</h3>
+                        <p>A web application that helps users manage their daily tasks efficiently.</p>
+                        <div class="tags">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">React</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-card-content">
+                        <h3>Project Beta</h3>
+                        <p>An API service that powers real-time data synchronization across platforms.</p>
+                        <div class="tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">FastAPI</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <a href="projects.html" class="btn">View All Projects →</a>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2026 Miha. Built with pure HTML & CSS.</p>
+            <p><a href="contact.html">Get in touch</a></p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

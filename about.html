@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn more about me and my background">
+    <title>Miha | About</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">Miha</a>
+            <div class="hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <h1>About Me</h1>
+            <p class="tagline">A little bit about who I am and what I do</p>
+        </section>
+
+        <section>
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Background</h2>
+                    <p>I'm a passionate developer with a love for creating elegant solutions to complex problems. My journey in technology started with curiosity and has evolved into a career focused on building impactful applications.</p>
+                    <p>When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or sharing knowledge with the community. I believe in continuous learning and pushing the boundaries of what's possible.</p>
+                    <p>My approach to development is grounded in clean code principles, user-centered design, and a commitment to delivering quality work. I enjoy working on projects that challenge me and allow me to grow both technically and professionally.</p>
+                </div>
+
+                <div class="about-text">
+                    <h2>Skills & Technologies</h2>
+                    <p>Over the years, I've developed expertise in various technologies and frameworks:</p>
+                    <div class="skills">
+                        <span class="skill">HTML5</span>
+                        <span class="skill">CSS3</span>
+                        <span class="skill">JavaScript</span>
+                        <span class="skill">TypeScript</span>
+                        <span class="skill">React</span>
+                        <span class="skill">Node.js</span>
+                        <span class="skill">Python</span>
+                        <span class="skill">Git</span>
+                        <span class="skill">SQL</span>
+                        <span class="skill">REST APIs</span>
+                        <span class="skill">Responsive Design</span>
+                        <span class="skill">UI/UX</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2018 - 2022</div>
+                    <h3>Bachelor's Degree in Computer Science</h3>
+                    <p>Studied computer science fundamentals, algorithms, data structures, and software engineering principles. Graduated with honors and participated in various coding competitions.</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">Ongoing</div>
+                    <h3>Continuous Learning</h3>
+                    <p>Regularly taking online courses, attending workshops, and staying updated with the latest industry trends and best practices.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Interests</h2>
+            <div class="about-text">
+                <p>Beyond coding, I'm interested in:</p>
+                <ul style="margin-left: 1.5rem; color: var(--text-light);">
+                    <li>Open-source software and community contributions</li>
+                    <li>Technology education and mentoring</li>
+                    <li>Reading technical books and blogs</li>
+                    <li>Attending tech meetups and conferences</li>
+                    <li>Exploring new programming languages and paradigms</li>
+                </ul>
+            </div>
+        </section>
+
+        <section style="text-align: center;">
+            <h2>Let's Connect</h2>
+            <p style="margin-bottom: 1.5rem; color: var(--text-light);">Interested in collaborating or just want to say hi?</p>
+            <a href="contact.html" class="btn">Get In Touch →</a>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2026 Miha. Built with pure HTML & CSS.</p>
+            <p><a href="contact.html">Get in touch</a></p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

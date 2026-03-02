@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore my portfolio of projects and work">
+    <title>Miha | Projects</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">Miha</a>
+            <div class="hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <h1>Projects</h1>
+            <p class="tagline">A collection of things I've built and worked on</p>
+        </section>
+
+        <section>
+            <h2>Featured Work</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-card-content">
+                        <h3>Task Manager Pro</h3>
+                        <p>A full-featured task management application with real-time collaboration, reminders, and progress tracking. Built with a focus on user experience and productivity.</p>
+                        <div class="tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-card-content">
+                        <h3>Weather Dashboard</h3>
+                        <p>A beautiful weather application that displays current conditions, forecasts, and weather alerts. Features location-based updates and customizable themes.</p>
+                        <div class="tags">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">API</span>
+                            <span class="tag">CSS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-card-content">
+                        <h3>E-Commerce Platform</h3>
+                        <p>A complete e-commerce solution with product catalog, shopping cart, payment integration, and order management. Designed for scalability and performance.</p>
+                        <div class="tags">
+                            <span class="tag">TypeScript</span>
+                            <span class="tag">Next.js</span>
+                            <span class="tag">Stripe</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-card-content">
+                        <h3>Data Visualization Tool</h3>
+                        <p>An interactive dashboard for visualizing complex datasets. Supports multiple chart types, filters, and export functionality.</p>
+                        <div class="tags">
+                            <span class="tag">D3.js</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">Flask</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-card-content">
+                        <h3>Chat Application</h3>
+                        <p>Real-time messaging application with support for private chats, group conversations, file sharing, and message encryption.</p>
+                        <div class="tags">
+                            <span class="tag">Socket.io</span>
+                            <span class="tag">Express</span>
+                            <span class="tag">Redis</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-card-content">
+                        <h3>Portfolio Generator</h3>
+                        <p>A tool that automatically generates professional portfolios from GitHub profiles and project data. Customizable templates and themes.</p>
+                        <div class="tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">GitHub API</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Open Source Contributions</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2025</div>
+                    <h3>Core Contributor</h3>
+                    <p>Actively contributing to several open-source projects, focusing on improving documentation, fixing bugs, and adding new features.</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2024</div>
+                    <h3>Developer Tools</h3>
+                    <p>Created and maintained developer tools and utilities that help streamline common development workflows.</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2023</div>
+                    <h3>Community Projects</h3>
+                    <p>Participated in hackathons and community-driven projects, collaborating with developers from around the world.</p>
+                </div>
+            </div>
+        </section>
+
+        <section style="text-align: center;">
+            <h2>Want to Work Together?</h2>
+            <p style="margin-bottom: 1.5rem; color: var(--text-light);">I'm always open to discussing new projects and opportunities.</p>
+            <a href="contact.html" class="btn">Let's Talk →</a>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2026 Miha. Built with pure HTML & CSS.</p>
+            <p><a href="contact.html">Get in touch</a></p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
